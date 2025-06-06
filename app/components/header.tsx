@@ -17,9 +17,6 @@ const Header: FC<IHeaderProps> = ({
   onShowSideBar,
   onCreateNewChat,
 }) => {
-  if (isMobile)
-    return null
-
   return (
     <div className="shrink-0 flex items-center justify-between h-12 px-3 bg-gray-100" style={{ display: 'none' }}>
       {isMobile
